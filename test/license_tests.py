@@ -22,7 +22,7 @@ allow_unknown = False
 allow_unlicense = True
 allow_ambiguous = False
 
-pkg_name = "ovos_skills_manager"
+pkg_name = "ovos_tts_plugin_piper"
 
 
 class TestLicensing(unittest.TestCase):
