@@ -23,7 +23,7 @@ license_overrides = {
     "zipp": "MIT"
 }
 # explicitly allow these packages that would fail otherwise
-whitelist = ["ovos-skill-installer"]
+whitelist = ["ovos-skill-installer", "python-date-util"]
 
 # validation flags
 allow_nonfree = False
