@@ -6,6 +6,12 @@ from lichecker import LicenseChecker
 # these packages dont define license in setup.py
 # manually verified and injected
 license_overrides = {
+    "filelock": "Unlicense",
+    "idna": "BSD",
+    "importlib-metadata": "Apache Software License",
+    "markdown-it-py": "MIT",
+    "mdurl": "MIT",
+    "packaging": "Apache Software License, BSD License",
     "kthread": "MIT",
     "yt-dlp": "Unlicense",
     "piper-phonemize": "MIT",
