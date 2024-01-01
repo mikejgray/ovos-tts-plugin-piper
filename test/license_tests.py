@@ -7,10 +7,14 @@ from lichecker import LicenseChecker
 # manually verified and injected
 license_overrides = {
     "kthread": "MIT",
-    'yt-dlp': "Unlicense",
-    'pyxdg': 'GPL-2.0',
-    'ptyprocess': 'ISC license',
-    'psutil': 'BSD3'
+    "yt-dlp": "Unlicense",
+    "piper-phonemize": "MIT",
+    "pyxdg": "GPL-2.0",
+    "ptyprocess": "ISC license",
+    "psutil": "BSD3",
+    "typing-extensions": "Python Software Foundation License",
+    "urllib3": "MIT",
+    "zipp": "MIT"
 }
 # explicitly allow these packages that would fail otherwise
 whitelist = ["ovos-skill-installer"]
